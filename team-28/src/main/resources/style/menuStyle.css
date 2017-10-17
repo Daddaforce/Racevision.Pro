@@ -1,0 +1,451 @@
+#menuAnchor{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+#dropShadowAnchor{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, #6c9292, 20, 0, 0, 10);
+}
+
+.btnNoStyle{
+    -fx-background-color:  transparent;
+    -fx-font: 11px "Helvetica Neue";
+    -fx-font-weight: bold;
+}
+
+#btnCreateGame{
+    -fx-padding: 10 195 10 25;
+    -fx-background-image: url('/graphics/hostArrow.png');
+}
+
+#btnJoinGame{
+    -fx-padding: 10 153 10 25;
+    -fx-background-image: url('/graphics/joinArrow.png');
+}
+
+#btnStartRace{
+    -fx-padding: 10 60 10 25;
+    -fx-background-image: url('/graphics/joinArrow.png');
+    -fx-effect: dropshadow(gaussian, rgba(108, 128, 128, 0.67), 15, 0, 0, 5);
+}
+
+#btnLoadMap{
+    -fx-padding: 10 60 10 25;
+    -fx-background-image: url('/graphics/joinArrow.png');
+}
+
+#btnCompete{
+    -fx-padding: 10 195 10 25;
+    -fx-background-image: url('/graphics/hostArrow.png');
+}
+
+#btnSpectate{
+    -fx-padding: 10 195 10 25;
+    -fx-background-image: url('/graphics/joinArrow.png');
+}
+
+#btnPractiseStart{
+    -fx-padding: 10 140 10 25;
+    -fx-background-image: url('/graphics/hostArrow.png');
+}
+
+#btnSinglePlay{
+    -fx-padding: 10 193 10 25;
+    -fx-background-image: url('/graphics/joinArrow.png');
+}
+
+#btnPartyMode{
+    -fx-padding: 10 153 10 25;
+    -fx-background-image: url('/graphics/partyArrow.png');
+}
+
+.btnSelection{
+    -fx-padding: 10 195 10 25;
+    -fx-background-color: white;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-effect: dropshadow(gaussian, #D6D6D6, 15, 0, 0, 5);
+    -fx-background-size: 22px 22px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right 18 center;
+}
+
+#lblMapName{
+    -fx-font: 38px "Helvetica Neue";
+    -fx-font-weight: 700;
+    -fx-text-fill: #ffffff;
+}
+
+.paneTitle{
+    -fx-font: 32px "Helvetica Neue";
+    -fx-font-weight: 700;
+    -fx-text-fill: #2e2e2e;
+}
+
+.paneDescription{
+    -fx-font: 12px "Helvetica Neue Normal";
+    -fx-text-fill: #6a6a6a;
+}
+
+#txtPortNumber{
+    -fx-font: 18px "Helvetica Neue";
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: #2a2a2a #2a2a2a #f4654b #2a2a2a;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#txtIPAddress{
+    -fx-font: 18px "Helvetica Neue";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: #2a2a2a #2a2a2a #f4654b #2a2a2a;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#lblIP{
+    -fx-font: 18px "Helvetica Neue";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#lblPort{
+    -fx-font: 18px "Helvetica Neue";
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#joinProgressIndicator{
+    -fx-progress-color: white;
+}
+
+#mapTitle {
+    -fx-font: 16px "Helvetica Neue Heavy";
+    -fx-text-fill: #2a2a2a;
+}
+
+#imvLogo{
+    -fx-effect: dropshadow(gaussian, #2f595a, 20, 0, 0, 0);
+}
+
+#imvSidePane{
+    -fx-opacity: 0.7;
+}
+
+#tblAvailableGames{
+
+}
+
+.sliderLabels{
+    -fx-font: 14px "Helvetica Neue";
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e2e2e;
+    -fx-opacity: 0.7;
+}
+
+#boatsInRaceSlider .track{
+    -fx-background-color: #dfdfdf;
+    -fx-padding: 2.5;
+    -fx-effect: dropshadow(gaussian, #e2e2e2, 12, 0, 0, 3);
+}
+
+#boatsInRaceSlider .thumb {
+    -fx-background-color: #888888;
+    -fx-effect: dropshadow(gaussian, #e2e2e2, 12, 0, 0, 3);
+}
+
+#speedScaleSlider .track{
+    -fx-background-color: #dfdfdf;
+    -fx-padding: 2.5;
+    -fx-effect: dropshadow(gaussian, #e2e2e2, 12, 0, 0, 3);
+}
+
+#speedScaleSlider .thumb {
+    -fx-background-color: #888888;
+    -fx-effect: dropshadow(gaussian, #e2e2e2, 12, 0, 0, 3);
+}
+
+#lblBoatsNum{
+    -fx-font: 44px "Helvetica Neue";
+    -fx-font-weight: 700;
+    -fx-text-fill: #ffffff;
+}
+
+#lblSpeedNum{
+    -fx-font: 44px "Helvetica Neue";
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+}
+
+#circleBoats{
+    -fx-fill: #ff776b;
+    -fx-effect: dropshadow(gaussian, #d0d0d0, 15, 0, 0, 4);
+}
+
+#circleSpeed{
+    -fx-fill: #91acb3;
+    -fx-effect: dropshadow(gaussian, #d0d0d0, 15, 0, 0, 4);
+}
+
+#imvMapPreview{
+    -fx-effect: dropshadow(gaussian, #70a3a3, 40, 0, 0, 8);
+    -fx-opacity: 0.9;
+}
+
+#btnMapLeft{
+    -fx-text-fill: white;
+    -fx-background-color: #2a2a2a;
+    -fx-background-radius: 200px;
+    -fx-background-radius: 200px;
+    -fx-padding: 7 20 7 20px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('/graphics/buttonImages/openArrow.png');
+    -fx-background-size: 30px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-opacity: 0.7;
+    -fx-effect: dropshadow(gaussian, rgba(108, 128, 128, 0.80), 15, 0, 0, 5);
+}
+
+#btnMapRight{
+    -fx-text-fill: white;
+    -fx-background-color: #2a2a2a;
+    -fx-background-radius: 200px;
+    -fx-background-radius: 200px;
+    -fx-padding: 7 20 7 20px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('/graphics/buttonImages/closeArrow.png');
+    -fx-background-size: 30px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-opacity: 0.7;
+    -fx-effect: dropshadow(gaussian, rgba(108, 128, 128, 0.80), 10, 0, 0, 5);
+}
+
+#lblMarksTitle{
+    -fx-font: 20px "Helvetica Neue";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#markCircle{
+    -fx-fill: #ff776b;
+    -fx-opacity: 0.8;
+    -fx-effect: dropshadow(gaussian, #6c9292, 15, 0, 0, 4);
+}
+
+#lblMarks{
+    -fx-font: 54px "Helvetica Neue";
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+}
+
+#lblEstTime{
+    -fx-font: 20px "Helvetica Neue";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#timeCircle{
+    -fx-fill: #93DA9F;
+    -fx-opacity: 0.8;
+    -fx-effect: dropshadow(gaussian, #6c9292, 15, 0, 0, 4);
+}
+
+#lblTime{
+    -fx-font: 16px "Helvetica Neue";
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+}
+
+#imvMapPane{
+    -fx-opacity: 0.7;
+}
+
+#mapPolygon{
+    -fx-effect: dropshadow(gaussian, #70a3a3, 40, 0, 0, 8);
+    -fx-fill: #8fcecc;
+    -fx-stroke-width: 0;
+}
+
+#imvLogoCircle{
+    -fx-effect: dropshadow(gaussian, rgba(108, 146, 146, 0.84), 20, 0, 0, 8);
+}
+
+#imvLogoShifted{
+    -fx-effect: dropshadow(gaussian, rgba(115, 155, 155, 0.65), 20, 0, 0, 8);
+}
+
+#settingsGrid{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, #6c9292, 20, 0, 0, 10);
+}
+
+
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font: 18px "Helvetica Neue";
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color:  #ff776b;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+#fxSlider .track{
+    -fx-background-color: #dfdfdf;
+    -fx-padding: 2.5;
+}
+
+#fxSlider .thumb {
+    -fx-background-color: #ff776b;
+    -fx-effect: dropshadow(gaussian, rgba(143, 143, 143, 0.6), 8, 0, 0, 2);
+}
+
+#musicSlider .track{
+    -fx-background-color: #dfdfdf;
+    -fx-padding: 2.5;
+}
+
+#musicSlider .thumb {
+    -fx-background-color: #91acb3;
+    -fx-effect: dropshadow(gaussian, rgba(143, 143, 143, 0.6), 8, 0, 0, 2);
+}
+
+#btnSettings{
+    -fx-text-fill: white;
+    -fx-background-color: #9acfcf;
+    -fx-background-radius: 200px;
+    -fx-background-radius: 200px;
+    -fx-padding: 7 20 7 20px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('/graphics/settingsIcon.png');
+    -fx-background-size: 22px 22px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-opacity: 0.7;
+    -fx-effect: dropshadow(gaussian, rgba(108, 128, 128, 0.80), 15, 0, 0, 5);
+}
+
+#btnControls{
+    -fx-text-fill: white;
+    -fx-background-color: #9acfcf;
+    -fx-background-radius: 200px;
+    -fx-background-radius: 200px;
+    -fx-padding: 7 20 7 20px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('/graphics/controlsIcon.png');
+    -fx-background-size: 25px 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-opacity: 0.7;
+    -fx-effect: dropshadow(gaussian, rgba(108, 128, 128, 0.80), 15, 0, 0, 5);
+}
+
+#lblMusic{
+    -fx-font: 15px "Helvetica Neue";
+    -fx-font-weight: bold;
+}
+
+#lblSoundEffects{
+    -fx-font: 15px "Helvetica Neue";
+    -fx-font-weight: bold;
+}
+
+#imvControls{
+    -fx-effect: dropshadow(gaussian, #6c9292, 8, 0, 0, 0);
+}
+
+.AIBtn{
+    -fx-padding: 10 25 10 25;
+    -fx-background-color:  white;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-effect: dropshadow(gaussian, #D6D6D6, 15, 0, 0, 5);
+    -fx-background-size: 22px 22px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right 18 center;
+}
+
+#imvSun{
+    -fx-effect: dropshadow(gaussian, #7a7a7a, 20, 0, 0, 0);
+}
+
+#imvMoon{
+    -fx-effect: dropshadow(gaussian, #7a7a7a, 20, 0, 0, 0);
+}

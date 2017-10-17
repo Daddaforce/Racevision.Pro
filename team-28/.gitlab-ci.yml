@@ -1,0 +1,21 @@
+junit:
+  stage: test
+  script:
+    - mvn -B clean test
+
+generate_artifacts:
+  stage: deploy
+  script:
+    - mvn -B clean site package
+
+pages:
+  stage: deploy
+  script:
+  - mkdir .public
+  - cp -r * .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

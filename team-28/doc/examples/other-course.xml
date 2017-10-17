@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+
+    <marks>
+        <mark start="start">
+            <name>Start line</name>
+            <latlon>
+                <lat>32.296577</lat>
+                <lon>-64.854304</lon>
+            </latlon>
+            <latlon>
+                <lat>32.293771</lat>
+                <lon>-64.855242</lon>
+            </latlon>
+        </mark>
+
+        <mark>
+            <name>Mark</name>
+            <latlon>
+                <lat>32.293039</lat>
+                <lon>-64.823983</lon>
+            </latlon>
+        </mark>
+
+        <mark>
+            <name>Leeward Gate</name>
+            <latlon>
+                <lat>32.284680</lat>
+                <lon>-64.850045</lon>
+            </latlon>
+            <latlon>
+                <lat>32.280164</lat>
+                <lon>-64.847591</lon>
+            </latlon>
+        </mark>
+
+        <mark>
+            <name>Windward Gate</name>
+            <latlon>
+                <lat>32.309693</lat>
+                <lon>-64.835249</lon>
+            </latlon>
+            <latlon>
+                <lat>32.308046</lat>
+                <lon>-64.831785</lon>
+            </latlon>
+        </mark>
+
+        <mark finish="finish">
+            <name>Finish line</name>
+            <latlon>
+                <lat>32.317379</lat>
+                <lon>-64.839291</lon>
+            </latlon>
+            <latlon>
+                <lat>32.317257</lat>
+                <lon>-64.836260</lon>
+            </latlon>
+        </mark>
+    </marks>
+
+    <legs>
+        <leg>Start line</leg>
+        <leg>Mark</leg>
+        <leg>Leeward Gate</leg>
+        <leg>Windward Gate</leg>
+        <leg>Mark</leg>
+        <leg>Leeward Gate</leg>
+        <leg>Windward Gate</leg>
+        <leg>Mark</leg>
+        <leg>Windward Gate</leg>
+        <leg>Finish line</leg>
+    </legs>
+
+    <wind>450</wind>
+
+    <boundary>
+        <latlon>
+            <lat>32.318879</lat>
+            <lon>-64.840291</lon>
+        </latlon>
+        <latlon>
+            <lat>32.312077</lat>
+            <lon>-64.840304</lon>
+        </latlon>
+        <latlon>
+            <lat>32.298771</lat>
+            <lon>-64.850045</lon>
+        </latlon>
+        <latlon>
+            <lat>32.299771</lat>
+            <lon>-64.860304</lon>
+        </latlon>
+        <latlon>
+            <lat>32.289771</lat>
+            <lon>-64.865304</lon>
+        </latlon>
+        <latlon>
+            <lat>32.288771</lat>
+            <lon>-64.855045</lon>
+        </latlon>
+        <latlon>
+            <lat>32.275680</lat>
+            <lon>-64.853045</lon>
+        </latlon>
+        <latlon>
+            <lat>32.275680</lat>
+            <lon>-64.844045</lon>
+        </latlon>
+        <latlon>
+            <lat>32.302680</lat>
+            <lon>-64.820504</lon>
+        </latlon>
+        <latlon>
+            <lat>32.318879</lat>
+            <lon>-64.835291</lon>
+        </latlon>
+    </boundary>
+</course>

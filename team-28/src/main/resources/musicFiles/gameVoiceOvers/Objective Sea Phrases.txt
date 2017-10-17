@@ -1,0 +1,43 @@
+Hitting a mark:
+"You can't sail over that!" - over_that
+"You can't sail over that, matey!" - over_that_matey
+"Holly heck, you've hit a mark!" - holly_heck
+"Ahar me mateies, you've hit a mark! - maties
+
+Hitting another boat:
+"Are you trying to get disqualified!?" - get_disqualified
+"Prepare to board!" - board
+
+Hitting boundary:
+"You can't leave the arena!" - cant_leave
+"Deserters will be shot!" be_shot
+
+First place:
+"Congratulations, you've won a pointless race!" - pointless_race
+
+Everyone but first place:
+"Pack your bags! First place has already been taken!" - been_taken
+"You've lost this race for sure!" - lost_this_race
+
+Everyone:
+"If you're not first you're last!" - youre_last
+
+Last place:
+"It's a boat time!" - boat_time
+
+Boat damage:
+"Get your rubber dingy ready!" - rubber_dingy
+"Live by the sail, die by the sail!" - live_by
+"Oh ship! We are in trouble now!" - oh_ship
+
+Pre-Race Start:
+"Get ready to race!" - ready_race
+
+
+
+"Try that again and see what happens!" - try_that
+
+"Aaarrrrggggghhhhh!" - scream
+"Oh buoy! Oh buoy! Oh buoy!" - buoy
+"Get ready for a SAIL-ebratition!" - sail_ebration
+"Water you doing!?" - water

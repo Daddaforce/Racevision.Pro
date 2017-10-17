@@ -1,0 +1,166 @@
+#windDirectionImage{
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 10, 0.1, 0, 0);
+}
+
+#boundary{
+    -fx-fill: #88e6ef;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 10, 0.4, 0, 0);
+    -fx-stroke: #407a97;
+    -fx-stroke-width: 0.5px;
+    -fx-opacity: 0.2;
+}
+
+#mark{
+    -fx-fill: white;
+    -fx-effect: dropshadow(gaussian, #6db1b7, 10, 0.2, 0, 0);
+    -fx-stroke: #cdfaf4;
+    -fx-stroke-width: 2.0;
+}
+
+#userHelp{
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-font-size: 18px;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 1);
+}
+
+#windArrow{
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+    -fx-stroke-width: 4px;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 0);
+}
+
+#nextMarkArrow{
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+    -fx-stroke-width: 5px;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 3);
+}
+
+#windCircle {
+    -fx-stroke-width: 4px;
+    -fx-fill: transparent;
+    -fx-stroke: white;
+    -fx-opacity: 0.8;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 3);
+}
+
+#nextMarkCircle {
+    -fx-stroke-width: 5px;
+    -fx-fill: transparent;
+    -fx-stroke: white;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 3);
+}
+
+#lblNextMark {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: White;
+    -fx-text-alignment: center;
+}
+
+
+#lblWindSpeed {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: White;
+}
+
+#imvSpeedScale {
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 0);
+}
+
+#btnClose{
+    -fx-text-fill: white;
+    -fx-background-color: #2a2a2a;
+    -fx-background-radius: 200px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('/graphics/buttonImages/closeArrow.png');
+    -fx-background-size: 30px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 0);
+}
+
+#lblNoBoardClock{
+    -fx-content-display: center;
+    -fx-padding: 10 50 10 50;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+    -fx-text-fill: White;
+    -fx-background-color: #2a2a2a;
+    -fx-background-radius: 30px;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 3);
+}
+
+#noBoardPlacings{
+    -fx-control-inner-background: transparent;
+    -fx-background-color: #2a2a2a;
+    -fx-font-size: 16px;
+    -fx-focus-color: transparent;
+    -fx-border-color: #1a1a1a;
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-padding: 10 0 10 10;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 3);
+}
+
+#tblPlacingsRV{
+    -fx-background-color: #2a2a2a;
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 3);
+}
+
+#btnQuickMenuTrack{
+    -fx-text-fill: white;
+    -fx-background-color: #2a2a2a;
+    -fx-background-radius: 200px;
+    -fx-background-radius: 200px;
+    -fx-font-size: 20px;
+     -fx-font-weight: bold;
+    -fx-background-image: url('/graphics/buttonImages/track-boat.png');
+    -fx-background-size: 25px 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 0);
+}
+
+#btnQuickMenuExit{
+    -fx-text-fill: white;
+    -fx-background-color: #2a2a2a;
+    -fx-background-radius: 200px;
+    -fx-background-radius: 200px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-image: url('/graphics/buttonImages/exitCross.png');
+    -fx-background-size: 25px 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 0);
+}
+
+#lblExitRV{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 0);
+}
+
+#lblTrackRV{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 0);
+}
+
+#tapCircle{
+    -fx-background-color: #8eb0b7;
+}
+
+#touchLine{
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+}

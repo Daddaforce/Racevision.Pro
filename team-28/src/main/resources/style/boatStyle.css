@@ -1,0 +1,105 @@
+#annotationLine {
+    -fx-stroke: White;
+    -fx-stroke-width: 1.5px;
+}
+
+#boatPath{
+    -fx-stroke-dash-array: 0.4 7.0 0.4 7.0;
+    -fx-border-style: dotted;
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+    -fx-stroke-width: 3px;
+}
+
+#annotationLabel {
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+}
+
+#wake{
+    -fx-stroke: linear-gradient(#eaf2ff, transparent);
+    -fx-fill: linear-gradient(rgb(132, 218, 255), transparent);
+    -fx-opacity: 1;
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+    -fx-stroke-width: 1px;
+}
+
+#annotationFrame{
+    -fx-background-color: #3F3F3F;
+    -fx-background-radius: 0.5em;
+    -fx-padding: 6px;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 3);
+}
+
+#boatIcon{
+    -fx-stroke: White;
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+}
+
+#annoGrabHandle{
+    -fx-opacity: 0.6;
+    -fx-background-color: #3F3F3F;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 3);
+}
+
+#boatSail {
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+    -fx-fill: transparent;
+    -fx-stroke: #565656;
+    -fx-opacity: 0.9;
+}
+
+#usersBoatHighlight {
+    -fx-opacity: 0.4;
+}
+
+#vectorLine {
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 0);
+}
+
+#sogVector {
+     -fx-stroke-line-cap: round;
+     -fx-stroke-line-join: round;
+     -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 0);
+}
+
+#layline {
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 6, 0, 0, 0);
+}
+
+#collisionCircle{
+    -fx-fill: #ff5b5b;
+    -fx-opacity: 0.6;
+}
+
+#nextMarkHighlight{
+    -fx-fill: #4DC58B;
+    -fx-opacity: 0.6;
+}
+
+#defaultBoatHighlight{
+    -fx-fill: #4DC58B;
+    -fx-opacity: 0.6;
+}
+
+#redBoatHighlight{
+    -fx-fill: #c55d4d;
+    -fx-opacity: 0.6;
+}
+
+
+#orangeBoatHighlight{
+    -fx-fill: #c5974d;
+    -fx-opacity: 0.6;
+}
+
+#predictedStartline{
+    -fx-stroke-line-cap: round;
+    -fx-stroke-line-join: round;
+    -fx-effect: dropshadow(gaussian, rgb(109, 177, 183), 5, 0, 0, 0);
+}

@@ -1,0 +1,282 @@
+
+body{
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.container-fluid{
+
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: 0;
+}
+
+#header{
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    left: 0;
+    right:0;
+    top:0;
+    height: 2.5rem;
+    background-color: white;
+    top:0;
+    left: 0;
+    right:0;
+}
+
+#statsPanel{
+    padding:3rem 1rem 0.5rem 1rem;
+    height:50vh;
+    width: 100%;
+}
+
+#statsContainer{
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    border-radius: 2rem;
+    width: 100%;
+    opacity: 0.6;
+
+}
+
+#statsFlexContainer{
+    display: inline-flex;
+    height:100%;
+    width:100%;
+}
+
+.statBox{
+    height:80%;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: rgba(0,0,0,0.5);
+    padding: 0.5rem;
+    width: 32%;
+}
+
+.statField{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.statSubtitle{
+    position: absolute;
+    right:0.5rem;
+    top:0.5rem;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: right;
+    float:right;
+}
+
+.noBorder{
+    border-style: none !important;
+}
+
+#boatNameText{
+    padding: 0;
+    margin: 0;
+    size: 0.8rem;
+    float:left;
+}
+
+#tackGybeControl{
+    border-radius: 0rem 2rem 2rem 0rem;
+    margin: 1.5% 5% 1.5% 0rem;
+    height: 10vh;
+    float:right;
+    width:44%;
+
+    border-style: solid;
+    border-width: 4px 4px 4px 0px;
+    border-color: white;
+
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+
+}
+
+#tackGybeControl:hover{
+    opacity: 0.9;
+}
+#tackGybeControl:active{
+    opacity: 0.7;
+}
+
+#vmgControl{
+    border-radius: 2rem 0rem 0rem 2rem;
+    margin: 1.5% 0% 1.5% 5%;
+    height: 10vh;
+    width:44%;
+
+
+    float:left;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: white;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+}
+
+#vmgControl:hover{
+    opacity: 0.9;
+}
+#vmgControl:active{
+    opacity: 0.7;
+}
+
+#upwindControl{
+
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+
+    border-radius: 0rem 100rem 0rem 0px;
+
+    height:39vh;
+    width: 33.5%;
+    float:left;
+    background-color: white;
+    padding: 0px;
+}
+
+#downWindControl{
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+
+    border-radius: 100rem 0px 0px 0px;
+    height:39vh;
+    width: 33.5%;
+    float:right;
+    background-color: white;
+    padding: 0px;
+
+}
+#downWindControl:hover{
+    opacity: 0.9;
+}
+#downWindControl:active{
+    opacity: 0.7;
+}
+#upwindControl:hover{
+    opacity: 0.9;
+}
+#upwindControl:active{
+    opacity: 0.7;
+}
+
+
+
+#sailsControls{
+    height:30vh;
+    width: 33%;
+    padding: 0px;
+
+}
+
+#sailsControl{
+display: block;
+border-radius: 2rem 2rem 2rem 2rem;
+margin: 2rem 15% 0% 15%;
+height: 40%;
+border-style: solid;
+border-width: 4px 4px 4px 4px;
+border-color: white;
+background-color: transparent;
+-webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.15);
+
+}
+
+#sailsControl:hover {
+    opacity: 0.9
+}
+#sailsControl:active{
+    opacity:0.7;
+}
+
+
+.row {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+#headerTitle{
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
+.buttonText{
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.col-md-6{
+    flex:auto !important;
+}
+
+.backgroundColor {
+    background-color: #54ca95;
+}
+
+#infoScreen{
+    z-index: 3;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 2rem;
+    display: none;
+}
+
+.directionArrow {
+    color: #54ca95;
+}
+
+#infoScreenText{
+    font-size:2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#errorMessage{
+    padding:1rem;
+    color:white;
+}

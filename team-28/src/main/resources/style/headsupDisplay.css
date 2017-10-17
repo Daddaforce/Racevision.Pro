@@ -1,0 +1,71 @@
+.headsUpDisplay{
+    -fx-background-color: #2a2a2a;
+    -fx-opacity: 0.9;
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 3);
+}
+
+.headsUpDisplayParty{
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, rgba(56, 56, 56, 0.69), 10, 0, 0, 3);
+}
+
+#speedLabel{
+    -fx-text-fill: #8eb0b7;
+    -fx-font-weight: 700;
+    -fx-font-size: 25px;
+    -fx-padding: 2 0 0 20;
+}
+
+#positionLabel{
+    -fx-text-fill: #8eb0b7;
+    -fx-font-weight: 700;
+    -fx-font-size: 25px;
+    -fx-padding: 2 0 0 20;
+}
+
+#boatHealth{
+    -fx-padding: 2 0 14 20;
+}
+
+#titleLabel{
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-font-size: 15px;
+    -fx-padding: 10 0 -5 20;
+}
+
+#healthLabel{
+    -fx-text-fill: #8eb0b7;
+    -fx-font-weight: 700;
+    -fx-font-size: 15px;
+    -fx-padding: 10 0 0 20;
+}
+
+#codeLabel{
+    -fx-text-fill: #393939;
+    -fx-font-weight: 700;
+    -fx-font-size: 42px;
+    -fx-padding: 2 0 0 0;
+}
+
+#partyCodeTitle{
+    -fx-text-fill: #93DA9F;
+    -fx-font-weight: 700;
+    -fx-font-size: 22px;
+    -fx-padding: 10 0 0 0;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(#ff8171, #ff6c62);
+    -fx-background-insets: 1 1 2 1;
+    -fx-padding: 0.40em;
+}
+
+.progress-bar {
+    -fx-indeterminate-bar-length: 300;
+}

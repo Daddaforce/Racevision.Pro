@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Objective Sea</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <link rel="stylesheet" href="website/style/style.css">
+  <link rel="stylesheet" href="website/style/controls.css">
+
+  <script src="website/js/scripts.js"></script>
+  <script src="website/js/websocketsScripts.js"></script>
+  <script src="website/js/typingUtils.js"></script>
+  <script src="website/js/messageConstants.js"></script>
+  <script src="website/js/js-crc/src/crc.js"></script>
+  <link rel="shortcut icon" href="website/img/favicon.ico">
+  <link rel="icon" sizes="16x16 32x32 64x64" href="website/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="196x196" href="website/img/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="160x160" href="website/img/favicon-160.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="website/img/favicon-96.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="website/img/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="website/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="website/img/favicon-16.png">
+  <link rel="apple-touch-icon" href="website/img/favicon-57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="website/img/favicon-114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="website/img/favicon-72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="website/img/favicon-144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="website/img/favicon-60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="website/img/favicon-120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="website/img/favicon-76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="website/img/favicon-152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="website/img/favicon-180.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="img/favicon-144.png">
+  <meta name="msapplication-config" content="img/browserconfig.xml">
+  <meta name="theme-color" content="#3e3e3e">
+</head>
+
+<body>
+  <div class="form" id="codeForm">
+      <div id="codeEntryForm" onsubmit="loadControls()">
+        <input type="tel" name="raceCode" maxlength="4" pattern="[0-9]*" id="codeBox" placeholder="Code">
+        <button id="submitCode" onclick="submitButtonPressed()">&#xf0a9</button><br>
+      </div>
+      <h3 id="errorMessage" class="hidden">Incorrect Room Code Entered</h3>
+  </div>
+
+
+
+
+  <div id="controls" class="hidden">
+    <div class="container-fluid backgroundColor" id="controlsPage">
+      <div class="row" id="header">
+        <h3 id="headerTitle">Objective Sea</h3>
+      </div>
+      <div class="row" id="statsPanel">
+
+        <div id="statsContainer">
+          <div id="boatNameText"> Oracle Team USA </div><br>
+          <div id="statsFlexContainer">
+              <div class="col-md-4 statBox">
+                  <div class="statField center" id="boatSpeed">35kn</div>
+                  <div class="statSubtitle">boat speed</div>
+              </div>
+              <div class="col-md-4 statBox">
+                  <div class="statField center" id="placing">2nd</div>
+                  <div class="statSubtitle">placing</div>
+
+              </div>
+              <div class="col-md-4 statBox noBorder">
+                  <div class="statField center" id="boatHealth">50%</div>
+                  <div class="statSubtitle">health</div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 boatActionPress" id="vmgControl" name="vmg">
+          <div class="buttonText center" id="vmgControlText" name="vmg">Autopilot</div>
+        </div>
+        <div class="col-md-6 boatActionPress" id="tackGybeControl" name="tackGybe">
+          <div class="buttonText center" id="tackGybeControlText" name="tackGybe">Tack or Gybe</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 boatActionHold" id="upwindControl" name="antiClockwise">
+          <div class="center" id="upwindControlCenter" name="antiClockwise">
+            <i class="fa fa-4x  fa-rotate-left directionArrow" id="upwindControlArrow" name="antiClockwise" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="col-md-4" id="sailsControls" name="sails">
+          <div class="row boatActionPress" id="sailsControl" name="sails">
+            <div class="buttonText center" id="sailsControlText" name="sails">Change Sails</div>
+          </div>
+        </div>
+        <div class="col-md-4 boatActionHold" id="downWindControl" name="clockwise">
+          <div class="center" id="downWindControlCenter" name="clockwise">
+            <i class="fa fa-4x  fa-rotate-right directionArrow" name="clockwise" id="downWindControlArrow" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="infoScreen">
+    <div id="infoScreenText" class="center">You have been disqualified from the race.</div>
+  </div>
+</body>
+</html>

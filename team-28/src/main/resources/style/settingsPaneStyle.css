@@ -1,0 +1,123 @@
+#settingsPane {
+    -fx-background-color: transparent;
+}
+
+#raceClockHBox {
+    -fx-background-color: transparent;
+}
+
+#settingHeader{
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+}
+
+#btnExit{
+  -fx-background-color:  #232323;
+  -fx-text-fill: #FFFFFF;
+  -fx-font-size: 15px;
+  -fx-font-weight: 700;
+  -fx-border-radius: 70;
+  -fx-background-radius: 70;
+  -fx-text-alignment: right;
+  -fx-padding: 10 20 10 20;
+}
+
+#btnTrack{
+    -fx-background-image: url('/graphics/buttonImages/track-boat.png');
+    -fx-background-size: 22px 22px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left 18 center;
+    -fx-background-color:  #232323;
+    -fx-font-weight: 700;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15px;
+    -fx-border-radius: 70;
+    -fx-background-radius: 70;
+    -fx-text-alignment: right;
+    -fx-padding: 10 25 10 55;
+}
+
+#btnTrack:hover{
+    -fx-background-color: #353535;
+}
+
+#btnTrack:pressed{
+    -fx-background-color: #1d1d1d;
+}
+
+#btnExit:hover{
+    -fx-background-color: #353535;
+}
+
+#btnExit:pressed{
+    -fx-background-color: #1d1d1d;
+}
+
+#lblAnnotation{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 5 0 ;
+}
+
+#annotationsSlider{
+    -fx-padding: 0 20 0 20;
+}
+
+#sliderLbl{
+    -fx-padding: 0 20 0 20;
+}
+
+#fpsLabel{
+    -fx-content-display: center;
+    -fx-padding: 10 10 10 10;
+    -fx-opacity: 0.8;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: White;
+    -fx-background-color: #2a2a2a;
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(gaussian, #383838, 10, 0, 0, 3);
+}
+
+#placings {
+    -fx-control-inner-background: transparent;
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#overViewList{
+    -fx-control-inner-background: #1a1a1a;
+    -fx-font-size: 17px;
+    -fx-focus-color: transparent;
+    -fx-background-insets: 0, 0;
+}
+
+
+#lblSettings{
+    -fx-font-size: 13px;
+    -fx-text-fill: White;
+}
+
+#chkAnno{
+    -fx-text-fill: White;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(#ff8171, #ff6c62);
+    -fx-background-insets: 1 1 2 1;
+    -fx-padding: 0.40em;
+}
+
+.progress-bar {
+    -fx-indeterminate-bar-length: 300;
+}
+
+#healthLabel{
+    -fx-text-fill: White;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 168 5 168 ;
+}

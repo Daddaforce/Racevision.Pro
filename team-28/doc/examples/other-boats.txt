@@ -1,0 +1,6 @@
+Example Boat 1, EX1, 60.3
+Example Boat 2, EX2, 64.5
+Example Boat 3, EX3, 62.5
+Example Boat 4, EX4, 62.4
+Example Boat 5, EX5, 64.2
+Example Boat 6, EX6, 70.0

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Race>
+    <CreationTimeDate>2017-04-14T13:03:20+12:00</CreationTimeDate>
+    <RaceStartTime Start="2017-09-14T13:03:20-04:00" Postpone="False" />
+    <RaceID>77228423</RaceID>
+    <RaceType>Fleet</RaceType>
+    <Participants>
+    </Participants>
+    <Course>
+        <CompoundMark CompoundMarkID="1" Name="Start">
+            <Mark SeqID="1" Name="Start Line 1" TargetLat="0.04" TargetLng="0.0" SourceID="1" />
+            <Mark SeqID="2" Name="Start Line 2" TargetLat="0.04" TargetLng="0.02213" SourceID="2" />
+        </CompoundMark>
+        <CompoundMark CompoundMarkID="2" Name="Mark">
+            <Mark SeqID="1" Name="Mark" TargetLat="0.0" TargetLng="0.01175" SourceID="3" />
+        </CompoundMark>
+        <CompoundMark CompoundMarkID="11" Name="Finish">
+            <Mark SeqID="1" Name="Finish Line 1" TargetLat="0.08" TargetLng="0.01175" SourceID="4" />
+            <Mark SeqID="2" Name="Finish Line 2" TargetLat="0.08" TargetLng="0.01175" SourceID="5" />
+        </CompoundMark>
+    </Course>
+    <CompoundMarkSequence>
+        <Corner SeqID="1" CompoundMarkID="1" Rounding="PS" ZoneSize="3" />
+        <Corner SeqID="2" CompoundMarkID="11" Rounding="PS" ZoneSize="3" />
+        <Corner SeqID="3" CompoundMarkID="2" Rounding="PS" ZoneSize="3" />
+        <Corner SeqID="4" CompoundMarkID="11" Rounding="PS" ZoneSize="3" />
+    </CompoundMarkSequence>
+    <CourseLimit>
+    </CourseLimit>
+</Race>
+
